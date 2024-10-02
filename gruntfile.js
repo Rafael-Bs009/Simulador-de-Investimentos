@@ -74,7 +74,7 @@ module.exports = function(grunt) {
                         },
                         {
                             match: 'ENDERECO_DO_SVG',
-                            replacement: '../src/svg/investment.svg'
+                            replacement: './svg/investment.svg'
                         },
                     ]
                 },
