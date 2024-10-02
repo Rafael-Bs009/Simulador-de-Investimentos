@@ -85,6 +85,12 @@ module.exports = function(grunt) {
                         src: ['prebuild/index.html'],
                         dest: 'dist/'
                     },
+                    {
+                        expand: true,
+                        flatten: true,
+                        src: ['src/svg/investment.svg'],
+                        dest: 'dist/svg/'
+                    },
                 ]
             }
         },
